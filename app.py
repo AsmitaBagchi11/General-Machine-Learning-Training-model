@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="AD ML App", layout="wide")
 
 # ---------------- SIDEBAR ----------------
-st.sidebar.title("⚙️ Controls")
+st.sidebar.title("Controls")
 
 uploaded_file = st.sidebar.file_uploader("Upload CSV", type=["csv"])
 
